@@ -1,0 +1,162 @@
+<!doctype html>
+
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>The HTML5 Herald</title>
+      <meta name="description" content="The HTML5 Herald">
+      <meta name="author" content="SitePoint">
+    </head>
+
+    <body>
+        <dl>
+            <dt><b>2004 - 2010</b></dt>
+            <dd><b>Szkoła podstawowa nr 2 w NDG</b></dd>
+            <dt><b>2010 - 2013</b></dt>
+            <dd><b>Gimnazjum Sportowe nr 1 w NDG</b></dd>
+            <dt><b>2013 - 2016</b></dt>
+            <dd><b>Liceum Ogólnoształcące nr 1 w NDG</b></dd>
+            <dt><b>2016 - 2020</b></dt>
+            <dd><b>Uniwersytet Mikołaja Kopernika w Toruniu</b></dd>
+        </dl>
+
+        <ul>
+            <li>Sporty:</li>
+                <ul>
+                    <li>Kolarstwo</li>
+                    <li>Kajakarstwo</li>
+                    <li>Boks</li>
+                </ul>
+            <li>Taniec towarzyski</li>
+            <li>Cukernictwo</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Encje znakowe języka HTML </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Encja</td>
+                    <td>Symbol</td>
+                </tr>
+                <tr>
+                    <td>&amp;lt;</td>
+                    <td><</td>
+                </tr>
+                <tr>
+                    <td>&amp;gt</td>
+                    <td>></td>
+                </tr>
+                <tr>
+                    <td>&amp;amp;</td>
+                    <td>&</td>
+                </tr>
+                <tr>
+                    <td>&amp;copy</td>
+                    <td>&copy;</td>
+                </tr>
+                <tr>
+                    <td>&amp;reg</td>
+                    <td>&reg;</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table style="border:1px solid;">
+            <tr>
+                <td style="border:1px solid;" rowspan="4"><b>EL Paso</b></td>
+                <td style="border:1px solid;" rowspan="2"><b>Czort</b></td>
+                <th style="border:1px solid;"><b>Wielki Szlem</b></th>
+            </tr>
+            <tr>
+                <th style="border:1px solid;"><b>Forta</b></th>
+            </tr>
+            <tr>
+                <td style="border:1px solid;" rowspan="2"><b>Ellora</b></td>
+                <th style="border:1px solid;"><b>Witraż</b></th>
+            </tr>
+            <tr>
+                <th style="border:1px solid;"><b>Elza</b></th>
+            </tr>
+        </table>
+        <p>
+            <img src="images/tygrys.jpg" alt="Wylegujący się tygrys"
+            title="Tygrys jest największym znanym kotem na świecie.">
+        </p>
+        <p> Zainteresowania: rybki i inne takie</p>
+        <p>Tutaj obrazek rybki.</p>
+           <a href="https://akwarium.gdynia.pl/" target="_blank" rel="noopener noreferrer"><img src="images/ryba-mala.png" alt="Jakaś tam rybka"
+            title="Akwarium Morskie"></a> 
+        <p>
+            <img src="images/menu.gif" alt="menu" usemap="#menu">
+            <map name="menu">
+                <area shape="rect" coords="61,15,112,44"  href="https://joemonster.org/" target="_blank" rel="noopener noreferrer" alt="W1" title="W1">
+                <area shape="rect" coords="120,15,175,43" href="https://www.lego.com/pl-pl" target="_blank" rel="noopener noreferrer" alt="W2" title="W2">
+                <area shape="rect" coords="182,16,234,43" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" alt="W3" title="W3">
+                <area shape="rect" coords="239,16,294,44" href="https://lowcygier.pl/" target="_blank" rel="noopener noreferrer" alt="W4" title="W4">
+                <area shape="rect" coords="305,16,358,44" href="http://www.nyan.cat/" target="_blank" rel="noopener noreferrer" alt="W5" title="W5">
+                <area shape="rect" coords="371,15,428,44" href="http://www.koalastothemax.com/" target="_blank" rel="noopener noreferrer" alt="W6" title="W6">
+                <area shape="rect" coords="436,16,486,45" href="https://corgiorgy.com/" target="_blank" rel="noopener noreferrer" alt="W7" title="W7">
+            </map>
+        </p>
+    
+        <form action="https://inf.ug.edu.pl/~atejszerska/wdtw/tests/user.php" method="get">
+        <p>
+            <table style="border:1px solid;">
+                <tr>
+                    <th style="border:1px solid;">Użytkownik</th>
+                    <td style="border:1px solid;"><input type="text" name="user"/></td>
+                    
+                </tr>
+                <tr>
+                    <th style="border:1px solid;">Hasło</th>
+                    <td style="border:1px solid;"><input type="password" name="password"/></td>
+                </tr>
+                <tr>
+                    <th style="border:1px solid;" colspan="2"><input style="display:flex;" type="submit" value="Wyślij" /></th>
+                </tr>
+        </p>
+        </form>
+
+        <p>
+            <table style="border:1px solid;">
+                <form action="https://inf.ug.edu.pl/~atejszerska/wdtw/tests/date.php" method="get">
+                <tr>
+                    <th colspan="2">Data:</th>
+                    <td style="border:1px solid;"><input type="number" name="day" min="1" max="31"/></td>
+                    <td style="border:1px solid;">
+                        <select name="month" id="month-select">
+                            <option value="styczeń">styczeń</option>
+                            <option value="luty">luty</option>
+                            <option value="marzec">marzec</option>
+                            <option value="kwiecień">kwiecień</option>
+                            <option value="maj">maj</option>
+                            <option value="czerwiec">czerwiec</option>
+                            <option value="lipec">lipiec</option>
+                            <option value="sierpień">sierpień</option>
+                            <option value="wrzesień">wrzesień</option>
+                            <option value="październik">październik</option>
+                            <option value="listopad">listopad</option>
+                            <option value="grudzień">grudzień</option>
+                        </select>                        
+                    </td>
+                    <td style="border:1px solid;"><input type="number" name="year" min="1940" max="2021"/></td>
+                    <td>
+                         <input style="display:flex;" type="submit" value="Sprawdź"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                    <form action="https://inf.ug.edu.pl/~atejszerska/wdtw/tests/date.php">
+                    <textarea name="comments" cols="30" rows="4">Miejsce na notatkę</textarea>
+                    </form>
+                    </th>
+                </tr>
+                </form>
+            </table>
+        </p>
+    </body>
+</html>
